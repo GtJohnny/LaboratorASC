@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 
 int f(char[20] s){
