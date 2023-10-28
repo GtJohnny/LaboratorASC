@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-int f(char[20] s){
-	printf("Mesajul este: %c",s);
+void f(char s[]){
+	printf("Mesajul este: %s",s);
 }
 
 int main(){
@@ -10,7 +10,7 @@ int main(){
 	a=0;
 	b=1;
 	while(a<1000){
-		cout<<a<<' ';
+		printf("%d",a);
 		b=a+b;
 		a=b-a;
 	}
